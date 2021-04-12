@@ -104,8 +104,6 @@ $today = date("Y-m-d");
 $startday = date("Y-m-01");
 // $date = date("M-d-Y", mktime(0, 0, 0, date('m'), date('d') - 1, date('Y')));
 
-$crmDomain = 'https://dauken.retailcrm.ru';
-$crmKey = 'ZmP47ib0wCfoL1Ah89Bgt7STSM4MHi5F';
 
 $dateStart = date(htmlspecialchars($_POST['actual_date3']));
 $dateEnd = date(htmlspecialchars($_POST['actual_date4']));
